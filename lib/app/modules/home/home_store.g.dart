@@ -35,7 +35,7 @@ mixin _$HomeStore on HomeStoreBase, Store {
   @override
   set breeds(List<dynamic> value) {
     _$breedsAtom.reportWrite(value, super.breeds, () {
-      super.breeds = value;git
+      super.breeds = value;
     });
   }
 
